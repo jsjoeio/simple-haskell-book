@@ -1,3 +1,8 @@
 {
-    "haskell.manageHLS": "GHCup"
+    "haskell.manageHLS": "GHCup",
+    "[haskell]": {
+    "editor.defaultFormatter": "jkillian.custom-local-formatters",
+    "editor.formatOnSave": true
+  },
+  "haskell.formattingProvider": "ormolu"
 }
